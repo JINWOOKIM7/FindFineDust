@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_img"
+            android:icon="@drawable/ic_image"
+            android:title="기상 이미지" />
+        <item
+            android:id="@+id/navigation_item_satellite"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="미세먼지 위성" />
+        <item
+            android:id="@+id/navigation_item_mask"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="마스크 정보" />
+
+    </group>
+
+
+
+</menu>

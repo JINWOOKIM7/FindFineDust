@@ -1,0 +1,26 @@
+<resources>
+     <!-- Base application theme. -->
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">#FFFFFF</item>
+            <item name="colorPrimaryDark">#FFFFFF</item>
+            <item name="colorAccent">#FFFFFF</item>
+            <item name="android:windowBackground">@color/windowBackground</item>
+            <item name="android:navigationBarColor">#FFFFFF</item>
+            <item name="android:statusBarColor">#FFFFFF</item>
+            <item name="android:textColor">#FFFFFF</item>
+
+        </style>
+
+    <style name="DrawerTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+
+    </style>
+    </resources>
+
